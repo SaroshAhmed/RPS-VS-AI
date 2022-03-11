@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: black;
+    align-content: center;
+    background-size: cover;
+    min-height: 30vh;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.red{
+    color:red;
+    font-size: 4rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+.submit{
+    font-size: 24px;
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    
+    align-content: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    cursor: pointer;
+}
+input[type="text"]{
+    font-size:  20px;
+
+}
+label{
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+h1{ 
+    
+    font-weight: normal;
+    margin-top: 4rem;
+    font-size:4rem;   
+    color: white;
+}
+
+h3{ 
+    
+    font-weight: normal;
+    margin-top: 4rem;
+    font: size 2px;
+    color: white;
+}
+.submit{
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #d41010;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(53, 4, 4);
+      }
+      
+      .button:hover {background-color: #e20606}
+      
+      .button:active {
+        background-color: #970303;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+.score{
+    display: flex;
+
+}
+.big-word{
+        font-weight: bold;
+    font-size:4rem;
+    margin: 0 2rem;
+    text-align: center;
+    }
+    .spantxt {
+        font-size:large;
+        text-align: center;
+    }
+    span {
+        font-size: 1.5rem;
+    }
+.rock{
+    border: 1px solid green;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #535353;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(63, 63, 63);
+  }
+  
+
+.paper{
+    border: 1px solid green;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #dfcb19;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(148, 126, 1);
+  }
+  
+
+.scizzor{
+    border: 1px solid green;
+    size: 2rem;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #37d410;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(27, 70, 2);
+  }
+  
+
+.options{
+ display:inline-block;
+}

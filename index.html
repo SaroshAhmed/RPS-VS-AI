@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+        <h1 id="h1">ROCK PAPERS SCIZZORS <span class="red">EXTREME</span> </h1>
+        <label for="name"> Enter Player Name </label>
+            <input id="pname" type="text"><br><br>
+        <button onclick="playername()" class="submit"> Submit </button>
+        <h3 id="h3"></h3>
+        <h2 id="h2"> </h2>
+
+    <div class="options">
+    <button id="rock" class="rock" onclick="rps()">Rock</button><br>
+    <button id="paper" class="paper" onclick="rps()">Paper</button><br>
+    <button id="scizzor" class="scizzor" onclick="rps()">Scizzor</button><br>
+</div>
+
+        <div class="score">
+            <div class="spantxt ties">
+                <p class="big-word" id="ties">0</p>
+                <span> TIES </span>
+            </div>
+            <div class="spantxt AI">
+                <p class="big-word" id="ai">0</p>
+                <span> AI </span>
+            </div>
+            <div class="spantxt player">
+                <p class="big-word" id="player">0</p>
+                <span id="playerone"> Player </span>
+            </div>
+</div>
+    
+    <script src="app.js" ></script>  
+</body>
